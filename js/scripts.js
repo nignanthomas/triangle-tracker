@@ -28,7 +28,11 @@ var display = function (){
   }
   //end of for loop (end of control valid numbers)
 
-  
+  if (validLength === false) {
+    trackerResult = "/!\\WARNING/!\\ \n PLEASE ENSURE THAT YOU ENTERED POSITIVE NUMBERS AND SUBMIT AGAIN!";
+  } else {
+      if (lengtha.value === lengthb.value && )
+  }
 
 $("text_where").innerHTML = trackerResult;
 // }
