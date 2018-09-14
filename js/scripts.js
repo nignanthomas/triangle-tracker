@@ -31,7 +31,11 @@ var display = function (){
   if (validLength === false) {
     trackerResult = "/!\\WARNING/!\\ \n PLEASE ENSURE THAT YOU ENTERED POSITIVE NUMBERS AND SUBMIT AGAIN!";
   } else {
-      if (lengtha.value === lengthb.value && )
+      if (lengtha.value === lengthb.value && lengthb.value === lengthvc.value){
+        trackerResult = "This is an equilateral triangle";
+      } else if () {
+
+      }
   }
 
 $("text_where").innerHTML = trackerResult;
