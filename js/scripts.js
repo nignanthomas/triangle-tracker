@@ -33,8 +33,10 @@ var display = function (){
   } else {
       if (lengtha.value === lengthb.value && lengthb.value === lengthvc.value){
         trackerResult = "This is an equilateral triangle";
-      } else if () {
-
+      } else if (lengtha.value + lengthb.value <= lengthc.value || lengthb.value + lengthc.value <= lengthb.value || lengtha.value +lengthc.value <= lengthb.value) {
+          trackerResult = "This is not a triangle";
+      } else {
+          
       }
   }
 
