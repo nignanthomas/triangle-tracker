@@ -10,7 +10,7 @@ JavaScript
 Git
 ## Live Demo
 https://nignanthomas.github.io/triangle-tracker/
-##Installation Requirements
+## Installation Requirements
 Clone to your computer using Terminal
 *git clone https://github.com/nignanthomas/triangle-tracker/*
 ## Support and contact details
