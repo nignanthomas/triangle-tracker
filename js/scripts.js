@@ -36,7 +36,9 @@ var display = function (){
       } else if (lengtha.value + lengthb.value <= lengthc.value || lengthb.value + lengthc.value <= lengthb.value || lengtha.value +lengthc.value <= lengthb.value) {
           trackerResult = "This is not a triangle";
       } else {
-          
+        if (lengtha === lengthb || lengthb === lengthc || lengtha === lengthc) {
+          trackerResult = "This is an isoscele triangle";
+        
       }
   }
 
