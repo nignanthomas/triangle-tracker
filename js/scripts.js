@@ -38,7 +38,9 @@ var display = function (){
       } else {
         if (lengtha === lengthb || lengthb === lengthc || lengtha === lengthc) {
           trackerResult = "This is an isoscele triangle";
-        
+        } else {
+          trackerResult = "This is a scalene triangle";
+        }
       }
   }
 
