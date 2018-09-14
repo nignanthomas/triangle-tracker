@@ -42,13 +42,13 @@ var display = function (){
     };
   };
 //
-  //sub tracker control flow
+  //sub-tracker control flow
   if (validLength === 0) {
     trackerResult = "/!\\WARNING/!\\ \n PLEASE ENSURE THAT YOU ENTERED POSITIVE NUMBERS AND SUBMIT AGAIN!";
   } else {
     triangleTracker(lengtha, lengthb, lengthc);
   }
-//end of tracker control flow
+//end of sub-tracker control flow
 
 console.log(validLength);
 console.log("1 = valid number / 0 = invalid");
