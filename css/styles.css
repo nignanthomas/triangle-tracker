@@ -77,3 +77,8 @@ label{
   font-family: 'Satisfy', cursive;
   font-weight: bold;
 }
+
+img{
+  height: 30px;
+  width: 30px;
+}
