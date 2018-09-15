@@ -44,7 +44,7 @@ var display = function (){
 //
   //sub-tracker control flow
   if (validLength === 0) {
-    trackerResult = "/!\\WARNING/!\\ \n PLEASE ENSURE THAT YOU ENTERED POSITIVE NUMBERS AND SUBMIT AGAIN!";
+    trackerResult = "/!\\WARNING/!\\ \n INVALID NUMBERS --- SUBMIT AGAIN!";
   } else {
     triangleTracker(lengtha, lengthb, lengthc);
   }
