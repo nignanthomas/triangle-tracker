@@ -18,13 +18,13 @@ Clone to your computer using Terminal
 `$ git clone https://github.com/nignanthomas/triangle-tracker/`
 
 ## BDD Specifications
-| Behaviour                         |  Input Example |  Output  Example|
+| Behavior                         |  Input Example |  Output  Example|
 |----------                         |:-------------: |------:          |
 | User inputs 3 identical lengths   | 12, 12 ,12     | EQUILATERAL |
 | User inputs 3 different lengths   | 15, 12, 10     | SCALENE     |
 | User input 2 identical lengths    | 10, 14, 10     | ISOSCELES   |
-| The sum of two lengths is less than or equal the third         | 1, 2, 3 | That is NOT a triangle |
-| User doesn't input positive numbers (including characters)  | "the", -17, 4   | That is NOT a number|
+| The sum of two lengths is less than or equal the third         | 1, 2, 3 | NOT a triangle |
+| User doesn't input positive numbers (including characters)  | hello -17, 4   | WARNING|
 
 ## Support and contact details
 Thomas NIGNAN https://github.com/nignanthomas/
