@@ -4,7 +4,7 @@ body{
   /* background-color: #a5acd2; */
   margin: 0 auto;
   height: 100vh;
-  background-image: linear-gradient(red, yellow, green);
+  /* background-image: linear-gradient(red, yellow, green); */
 }
 
 /* styling header */
@@ -60,4 +60,10 @@ input[type=text]:focus {
 label{
   text-decoration: underline;
   font-size: 125%;
+}
+
+
+.copyname {
+  font-family: 'Satisfy', cursive;
+  font-weight: bold;
 }
