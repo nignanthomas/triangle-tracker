@@ -32,7 +32,7 @@ var display = function (){
 //
   var triangleTracker = function(lengtha, lengthb, lengthc) {
     if (lengtha>=(lengthb + lengthc) || lengthb>=(lengtha + lengthc) || lengthc>=(lengtha + lengthb)){
-      trackerResult = "This is not a triangle.";
+      trackerResult = "These lengths don't make a triangle.";
     }else if (lengtha === lengthb && lengthb === lengthc){
       trackerResult = "This is an equilateral triangle.";
     }else if (lengtha != lengthb && lengthb != lengthc){
