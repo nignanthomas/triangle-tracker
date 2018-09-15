@@ -17,6 +17,7 @@ h1{
   font-size: 40px;
   font-weight: normal;
   font-style: italic;
+  background-color: white;
 }
 
 /* styling submit button */
@@ -61,6 +62,14 @@ input[type=text]:focus {
 label{
   text-decoration: underline;
   font-size: 125%;
+}
+
+.container{
+  width: 50%;
+  border: 1px solid blue;
+  border-radius: 2%;
+  background-color: #f1e7ff;
+  margin: 0 auto;
 }
 
 
