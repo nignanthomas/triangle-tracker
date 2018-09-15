@@ -55,3 +55,8 @@ console.log("1 = valid number / 0 = invalid");
 console.log(trackerResult);
   $("text_where").innerHTML = trackerResult;
 };
+
+//RELOAD FUNCTION
+function reload() {
+  location.reload();
+}
