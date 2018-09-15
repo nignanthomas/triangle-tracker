@@ -35,7 +35,7 @@ var display = function (){
       trackerResult = "These lengths don't make a triangle.";
     }else if (lengtha === lengthb && lengthb === lengthc){
       trackerResult = "This is an equilateral triangle.";
-    }else if (lengtha != lengthb && lengthb != lengthc){
+    }else if (lengtha != lengthb && lengthb != lengthc && lengtha != lengthc){
       trackerResult = "This is a scalene triangle.";
     }else {
       trackerResult = "This is an isosceles triangle.";

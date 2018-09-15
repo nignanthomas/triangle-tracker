@@ -45,3 +45,10 @@ input[type=text] {
 input[type=text]:focus {
   background-color: lightgrey;
 }
+
+
+/* styling labels */
+label{
+  text-decoration: underline;
+  font-size: 125%;
+}
