@@ -2,6 +2,7 @@ body{
   text-align: center;
   background-color: #a5acd2;
   margin: 0 auto;
+  height: 100vh;
 }
 
 /* styling header */
@@ -13,7 +14,6 @@ h1{
   font-style: italic;
 }
 
-
 /* styling submit button */
 #submit {
   display: inline-block;
@@ -24,28 +24,32 @@ h1{
   text-align: center;
   font-size: 28px;
   padding: 20px;
-  transition: all 0.5s;
+  transition: all 0.2s;
   cursor: pointer;
   margin: 5px;
 }
 #submit:hover {
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
-
+#submit:active {
+  transform: translateY(4px);
+}
 
 /* styling the input fields */
 input[type=text] {
-    width: 10%;
+    width: 150px;
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
-    border: 3px solid black;
-    border-radius: 25%;
+    /* border: 3px solid black; */
+    border: none;
+    border-bottom: 3px solid black;
+    border-left: 3px solid black;
+    /* border-radius: 25%; */
 }
 input[type=text]:focus {
   background-color: lightgrey;
 }
-
 
 /* styling labels */
 label{
