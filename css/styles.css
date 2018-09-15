@@ -1,6 +1,7 @@
 body{
   text-align: center;
   font-family: 'Iceland', cursive;
+  background-image: url(../images/background.jpg);
   /* background-color: #a5acd2; */
   margin: 0 auto;
   height: 100vh;
