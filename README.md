@@ -34,7 +34,7 @@ Clone to your computer using Terminal
 | User inputs 3 different lengths   | 15, 12, 10     | SCALENE     |
 | User input 2 identical lengths    | 10, 14, 10     | ISOSCELES   |
 | The sum of two lengths is less than or equal the third         | 1, 2, 3 | NOT a triangle |
-| User doesn't input positive numbers (including characters)  | hello -17, 4   | WARNING|
+| User doesn't input positive numbers (including characters)  | hello, -17, 4   | WARNING|
 
 ## Support and contact details
 Thomas NIGNAN https://github.com/nignanthomas/
