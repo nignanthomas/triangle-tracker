@@ -82,3 +82,19 @@ img{
   height: 30px;
   width: 30px;
 }
+
+/* responsive design */
+@media (max-width: 900px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 768px) {
+  .container {
+    width: 400px;
+  }
+}
+@media (max-width: 480px) {
+  .container {
+    width: 250px;
+  }
