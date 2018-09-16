@@ -1,6 +1,16 @@
 # TRIANGLE TRACKER
+
 #### A Triangle Tracker App, 09/14/18
-#### By **nignanthomas**
+
+#### By **nignanthomas**        
+                                                 _                               
+               o                                | |                              
+        _  _       __,  _  _    __,   _  _  _|_ | |     __   _  _  _    __,   ,  
+       / |/ |  |  /  | / |/ |  /  |  / |/ |  |  |/ \   /  \_/ |/ |/ |  /  |  / \_
+         |  |_/|_/\_/|/  |  |_/\_/|_/  |  |_/|_/|   |_/\__/   |  |  |_/\_/|_/ \/
+                    /|                                                           
+                    \|                                                           
+
 ## Description
 This app asks the user to input the length of the three sides of a triangle and then tells him whether it is equilateral, isosceles, scalene or if those lengths don't make a triangle.
 
