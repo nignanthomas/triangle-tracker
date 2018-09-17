@@ -15,10 +15,10 @@
 This app asks the user to input the length of the three sides of a triangle and then tells him whether it is equilateral, isosceles, scalene or if those lengths don't make a triangle.
 
 ## Technologies Used
--HTML
--CSS
--JavaScript
--Git
+- HTML
+- CSS
+- JavaScript
+- Git
 
 ## Live Demo
 https://nignanthomas.github.io/triangle-tracker/
